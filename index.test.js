@@ -1,7 +1,7 @@
 import { Hono } from 'hono'
 import { HTTPException } from 'hono/http-exception'
 
-import json from './index.js'
+import { json } from './index.js'
 
 describe('hono-json', () => {
   it('No app', async () => {

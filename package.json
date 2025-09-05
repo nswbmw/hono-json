@@ -1,10 +1,11 @@
 {
   "name": "hono-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Hono middleware that formats JSON responses for consistent API output.",
   "type": "module",
   "module": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
   "author": "nswbmw",

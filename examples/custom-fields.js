@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import json from '../index.js'
+import { json } from '../index.js'
 import { serve } from '@hono/node-server'
 
 const app = new Hono()

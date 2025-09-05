@@ -12,7 +12,7 @@ $ npm i hono-json --save
 
 ```js
 import { Hono } from 'hono'
-import json from 'hono-json'
+import { json } from 'hono-json'
 import { serve } from '@hono/node-server'
 
 const app = new Hono()
@@ -75,7 +75,7 @@ Customize return status and fields:
 
 ```js
 import { Hono } from 'hono'
-import json from 'hono-json'
+import { json } from 'hono-json'
 import { serve } from '@hono/node-server'
 
 const app = new Hono()
@@ -128,7 +128,7 @@ To return raw JSON, you must add `ctx._raw` before returning the response.
 
 ```js
 import { Hono } from 'hono'
-import json from 'hono-json'
+import { json } from 'hono-json'
 import { serve } from '@hono/node-server'
 
 const app = new Hono()

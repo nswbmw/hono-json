@@ -1,4 +1,4 @@
-export default function honoJsonFn (app, options = {}) {
+export function json (app, options = {}) {
   if (!app) {
     throw new Error('No app')
   }
